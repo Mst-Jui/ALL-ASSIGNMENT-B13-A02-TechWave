@@ -583,7 +583,7 @@ nav .hamburger{
 /* Meet the Host */
 .host{
   background-color: #1A0B2E;
-  height: 140vh;
+  height: 120vh;
  }
  .host-title h2{
   font-size: 2rem;
@@ -651,6 +651,14 @@ nav .hamburger{
   position: relative;
   animation: animation 1s ease-in-out 2s infinite alternate;
 }
+}
 
 
+/* min-width=992px */
+
+@media screen and (min-width: 992px){
+  .host{
+  background-color: #1A0B2E;
+  height: 110vh;
+ }
 }
