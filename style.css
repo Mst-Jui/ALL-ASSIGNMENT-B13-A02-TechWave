@@ -661,4 +661,16 @@ nav .hamburger{
   background-color: #1A0B2E;
   height: 110vh;
  }
+ .cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  row-gap: 100px;
+}
+.box-container{
+  
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
 }
