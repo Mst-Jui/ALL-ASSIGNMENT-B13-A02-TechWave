@@ -78,6 +78,10 @@ nav .hamburger{
   height: 100vh;
   position: relative;
 }
+ 
+
+
+
 .hero-circle{
   position: absolute;
   top: 33%;
@@ -109,7 +113,9 @@ nav .hamburger{
   position: relative;
   top: 40%;
 }
-  
+
+
+
  
 .banner-title h2{
   color: #fff;
@@ -124,6 +130,24 @@ nav .hamburger{
   text-align: center;
   max-width: 600px;
 }
+
+/* animation */
+@keyframes animation {
+  from{
+    left:0;
+    color: #F7E93F;
+  }
+  to{
+    right: 100px;
+    color: #fb0eb1;
+  }
+}
+.spotify{
+  position: relative;
+  animation: animation 1s ease-in-out 2s infinite alternate;
+}
+
+
 .spotify{
   display: flex;
   align-items: center;
@@ -454,6 +478,7 @@ nav .hamburger{
   width: 100%;
   height: 80vh;
 }
+
 .hero-circle{
   width: 220px;
 }
@@ -580,6 +605,22 @@ nav .hamburger{
 .copyright{
   top: 85%;
   width: 400px;
+}
+
+/* animation */
+@keyframes animation {
+  from{
+    left:0;
+    color: #F7E93F;
+  }
+  to{
+    right: 50px;
+    color: #fb0eb1;
+  }
+}
+.spotify{
+  position: relative;
+  animation: animation 1s ease-in-out 2s infinite alternate;
 }
 
 
